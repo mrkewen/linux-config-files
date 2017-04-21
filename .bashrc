@@ -116,8 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source ~/.git-prompt.sh
-source ~/.git-completion.bash
+#source ~/.git-prompt.sh
+#source ~/.git-completion.bash
 #export PROMPT_COMMAND='__git_ps1 "" "\h:\W \u\\\$ " "[%s]\n"' 
 #export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 GIT_PS1_SHOWDIRTYSTATE=1
