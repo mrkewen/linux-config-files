@@ -1,3 +1,17 @@
-*
+# Blacklist all files/directories
+
+/*
+
+
+
+# Whitelist specific files
 
 !.gitignore
+!.bashrc
+!.inputrc
+!.vimrc
+!.tmux.conf.local
+!README.md
+!.emacs.d/init.el
+
+
